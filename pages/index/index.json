@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "wave-audio-player": "/components/wave-audio-player/index"
+  }
+}

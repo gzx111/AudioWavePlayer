@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <wave-audio-player audio-url="https://m10.music.126.net/20221126000458/4c087fd24c44c2594a884e6dc1eb3fbb/ymusic/5e03/be47/ef20/c2a509e64798308f3677e0ec09bb31bd.mp3" start-play="{{play}}"></wave-audio-player>
+  <view style="height: 88rpx; background: #00f; line-height: 88rpx; text-align: center; color:white;margin-top: 20rpx;" bindtap="toPlay">play</view>
+  <view style="height: 88rpx; background: #f00; line-height: 88rpx; text-align: center; color:white; margin-top: 20rpx;" bindtap="toPause">pause</view>
+</view>

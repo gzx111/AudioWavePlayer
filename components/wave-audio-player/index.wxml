@@ -1,0 +1,7 @@
+<!--components/wave-audio-player/index.wxml-->
+<view id="waveform">
+  <view id="wave" style="display: block; position: relative; user-select: none; width: 100%; height: {{height}}; overflow: hidden hidden;">
+    <canvas id="wave-canvas" type="2d" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%;"></canvas>
+    <canvas id="progress-canvas" type="2d" style="position: absolute; left: 0px; top: 0px; bottom: 0px; height: 100%; width: 100%; z-index:99;"></canvas>
+  </view>
+</view>
